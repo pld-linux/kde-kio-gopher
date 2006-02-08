@@ -1,6 +1,6 @@
 %define		_name	gopher
-Summary:	KDE gopher kioslave
-#Summary(pl):		
+Summary:	Gopher support for KDE
+Summary(pl):	Obs³uga protoko³u gopher dla KDE
 Name:		kde-kio-%{_name}
 Version:	20040214
 Release:	1
@@ -18,8 +18,10 @@ BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Gopher support for KDE.
 
 %description -l pl
+Obs³uga protoko³u gopher dla KDE.
  
 %prep
 %setup -q -n kio_%{_name}-%{version}
