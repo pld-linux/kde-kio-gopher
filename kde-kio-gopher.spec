@@ -9,7 +9,7 @@ Group:		Applications
 Source0:	http://download.berlios.de/kgopher/kio_%{_name}-%{version}.tar.bz2	
 # Source0-md5:	3e0ce7b35f48a8f7af64cd8789a332b2
 Patch0:		kde-common-PLD.patch	
-URL:		http://kgopher.berlios.de
+URL:		http://kgopher.berlios.de/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 9:3.2.0
