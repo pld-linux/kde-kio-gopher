@@ -6,9 +6,9 @@ Version:	20040214
 Release:	1
 License:	GPL
 Group:		Applications
-Source0:	http://download.berlios.de/kgopher/kio_%{_name}-%{version}.tar.bz2	
+Source0:	http://download.berlios.de/kgopher/kio_%{_name}-%{version}.tar.bz2
 # Source0-md5:	3e0ce7b35f48a8f7af64cd8789a332b2
-Patch0:		kde-common-PLD.patch	
+Patch0:		kde-common-PLD.patch
 URL:		http://kgopher.berlios.de/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -22,7 +22,7 @@ Gopher support for KDE.
 
 %description -l pl
 Obs³uga protoko³u gopher dla KDE.
- 
+
 %prep
 %setup -q -n kio_%{_name}-%{version}
 %patch -p1
