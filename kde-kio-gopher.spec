@@ -25,7 +25,7 @@ Obs³uga protoko³u gopher dla KDE.
 
 %prep
 %setup -q -n kio_%{_name}-%{version}
-%patch -p1
+%patch0 -p1
 
 %build
 cp -f /usr/share/automake/config.sub admin
