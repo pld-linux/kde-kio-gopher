@@ -1,6 +1,6 @@
 %define		_name	gopher
 Summary:	Gopher support for KDE
-Summary(pl):	Obs≥uga protoko≥u gopher dla KDE
+Summary(pl.UTF-8):   Obs≈Çuga protoko≈Çu gopher dla KDE
 Name:		kde-kio-%{_name}
 Version:	20040214
 Release:	1
@@ -20,8 +20,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Gopher support for KDE.
 
-%description -l pl
-Obs≥uga protoko≥u gopher dla KDE.
+%description -l pl.UTF-8
+Obs≈Çuga protoko≈Çu gopher dla KDE.
 
 %prep
 %setup -q -n kio_%{_name}-%{version}
