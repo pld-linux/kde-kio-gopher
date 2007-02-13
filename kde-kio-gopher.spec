@@ -1,6 +1,6 @@
 %define		_name	gopher
 Summary:	Gopher support for KDE
-Summary(pl.UTF-8):   Obsługa protokołu gopher dla KDE
+Summary(pl.UTF-8):	Obsługa protokołu gopher dla KDE
 Name:		kde-kio-%{_name}
 Version:	20040214
 Release:	1
