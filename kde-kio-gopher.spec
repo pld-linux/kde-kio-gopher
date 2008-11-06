@@ -2,7 +2,7 @@ Summary:	Gopher support for KDE
 Summary(pl.UTF-8):	Obsługa protokołu gopher dla KDE
 Name:		kde-kio-gopher
 Version:	20040214
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications
 Source0:	http://download.berlios.de/kgopher/kio_gopher-%{version}.tar.bz2
